@@ -5,7 +5,7 @@
 
 .NOTES
     Author          : Daniel Osgood
-    LinkedIn        : linkedin.com/in/joshmadakor/
+    LinkedIn        : linkedin.com/in/daniel-osgood-672866289/
     GitHub          : github.com/CyberDanOsgood/LOGN_PACIFIC
     Date Created    : 2025-09-25
     Last Modified   : 2025-09-25
