@@ -1,0 +1,15 @@
+# Define values 
+$regPath  = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System"
+$valueName = "FilterAdministratorToken"
+$valueData = 0x00000001
+
+# Ensure the key exists
+if (-not (Test-Path $regPath)) {
+    New-Item -Path $regPath -Force | Out-Null
+}
+
+# Set the registry value
+Set-ItemProperty -Path $regPath -Name $valueName -Value $valueData -Type DWord
+
+# Confirm the result
+Get-ItemProperty -Path $regPath | Select-Object $valueName
