@@ -20,9 +20,7 @@
     PowerShell Ver. : 
 
 .USAGE
-    Put any usage instructions here.
-    Example syntax:
-    PS C:\> .\STIG-ID-WN10-AU-000500.ps1 
+    PS C:\> .\STIG-ID-WN10-AC-000005.ps1 
 #>
 
 # Run as admin
