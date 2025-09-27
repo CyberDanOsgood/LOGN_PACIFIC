@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    This PowerShell script ensures that the account lockout duration is set to 15 minutes.
+    This PowerShell script ensures that the account password history is set to 24.
 
 .NOTES
     Author          : Daniel Osgood
