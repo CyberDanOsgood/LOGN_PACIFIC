@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    This PowerShell script ensures the user cannot sign in using a convenience PIN to prevent enabling (Password Stuffer).
+    This PowerShell script ensures digest authentication is disallowed to prevent MITM attacks.
 
 .NOTES
     Author          : Daniel Osgood
@@ -33,7 +33,7 @@ $valueData = 0x00000000
 
 # Ensure the key exists
 if (-not (Test-Path $regPath)) {
-    New-Item -Path $regPath -Force | Out-Null
+    New-Item -Path $regPath -Force -ItemType Directory | Out-Null
 }
 
 # Set the registry value
