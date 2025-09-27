@@ -1,6 +1,7 @@
 <#
 .SYNOPSIS
-    
+    Additional security requirements are applied to Universal Naming Convention (UNC) paths specified in Hardened UNC paths before allowing access to them.
+    This aids in preventing tampering with or spoofing of connections to these paths.
 
 .NOTES
     Author          : Daniel Osgood
