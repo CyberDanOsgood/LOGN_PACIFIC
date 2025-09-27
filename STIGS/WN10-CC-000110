@@ -33,7 +33,7 @@ $valueData = 0x00000001
 
 # Ensure the key exists
 if (-not (Test-Path $regPath)) {
-    New-Item -Path $regPath -Force | Out-Null
+   New-Item -Path $regPath -Force -ItemType Directory | Out-Null
 }
 
 # Set the registry value
