@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    This PowerShell script configures the built-in Administrator account so that it runs in Admin Approval Mode in order to limit elevation of privileges.
+    This PowerShell script ensures the user cannot sign in using a convenience PIN to prevent enabling (Password Stuffer).
 
 .NOTES
     Author          : Daniel Osgood
