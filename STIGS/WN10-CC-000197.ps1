@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    This PowerShell script configures the built-in Administrator account so that it runs in Admin Approval Mode in order to limit elevation of privileges.
+    This PowerShell script ensures Microsoft consumer experiences is off in order to avoid prevent the unwanted installation of suggested applications.
 
 .NOTES
     Author          : Daniel Osgood
