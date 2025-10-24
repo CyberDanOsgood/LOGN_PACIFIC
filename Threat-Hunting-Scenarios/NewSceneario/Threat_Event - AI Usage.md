@@ -32,10 +32,10 @@
 
 ## Related Queries:
 ```kql
-// ChatGPT domain ip address == ("104.18.39.85", "172.64.155.209")
+// AI domain ip address == ("172.64.155.209", "142.251.34.206", "23.192.230.141")
 // Detect connection to ChatGPT
 DeviceNetworkEvents
-| where RemoteIP in ("23.48.203.9", "172.64.155.209")
+| where RemoteIP in ("172.64.155.209", "142.251.34.206", "23.192.230.141")
 | project TimeGenerated, DeviceName, InitiatingProcessAccountName, RemoteIP, InitiatingProcessFileName
 
 // Clipboard data being used
